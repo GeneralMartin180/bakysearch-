@@ -81,8 +81,8 @@ const PrivacyModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
     setTimeout(() => {
       setDownloadStep('ready');
       setTimeout(() => {
-        // Nový odkaz na priečinok
-        window.open("https://drive.google.com/drive/folders/1dmLIBqpEoOfV3jcPOix1oU_Ubthhzm3d?usp=sharing", "_blank");
+        // Najnovší odkaz na priečinok
+        window.open("https://drive.google.com/drive/folders/1w90P84XQBcWdVuXQX5i1OwLY_hvlFx3_?usp=drive_link", "_blank");
         setDownloadStep('idle');
         onClose();
       }, 500);
